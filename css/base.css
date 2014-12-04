@@ -18,10 +18,8 @@ p {
     margin-bottom: 1px;
 }
 
-.banner image{
-padding-bottom: -50px;
-    width: 100%;
-    max-height: 300px;
+.bannerimage{
+    max-height: 100;
 }
 
 header{
@@ -29,7 +27,7 @@ header{
     color: #ffffff;
     height: 45px;
     font-family: century, georgia, serif;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 
 header h1{
@@ -84,6 +82,10 @@ article h2{
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 4px;
+}
+
+article h3{
+    margin-top: 10px;
 }
 
 footer{
@@ -162,10 +164,4 @@ input, textarea{
     float: left;
     padding-right: 8%; 
     width: 58%;    
-}
-
-.half {
-    float: left;
-    padding-right: 2%;
-    width: 49%;
 }
